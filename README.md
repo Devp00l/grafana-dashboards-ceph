@@ -7,7 +7,7 @@ source and expect prometheus to collect data from node_exporter and ceph_exporte
 The dashboards are installed to /var/lib/grafana-dashboards-ceph. Make sure to set the
 following config in /etc/grafana/grafana.ini:
 ```
-    [dashbords.json]
+    [dashboards.json]
         enabled = true
         path = /var/lib/grafana-dashboards-ceph
 ```
